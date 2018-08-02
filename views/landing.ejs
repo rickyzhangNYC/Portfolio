@@ -1,77 +1,98 @@
 <% include ./partials/header %>
 
-<!--MAIN CONTENT-->
-<main role="main">
-  <div class="container main-content" id="main-content">
-    <!--ABOUT ME-->
-    <div class="row-featurette mb-5" id="about-me">
+  <!--MAIN CONTENT-->
+  <main role="main">
+    <div class="container main-content" id="main-content">
+      <!--ABOUT ME-->
+      <div class="row-featurette mb-5" id="about-me">
         <h1 class="featurette-heading">Hi, I'm Ricky Zhang!</h1>
-        <p class="lead">I'm an aspiring software engineer located in New York City. I recieved a B.E
-        in Computer Engineering at Stony Brook University. Currently looking for opportunities to develop 
-        and improve my skills as a developer. I am passionate about learning and working on challenging projects.</p>
-    </div>
-    
-            <!--SOCIAL MEDIA LINKS-->
-    <div class="row text-center">
-      <div class="col-sm-3 mb-2">
-        <a href="https://s3.amazonaws.com/rickyzhangresume/Ricky+Zhang+Resume.pdf" target="_blank">
-          <div><i class="fas fa-file-alt"></i></div>
-          <span>Resume</span>
-        </a>
+        <p class="lead">I'm an aspiring software engineer located in New York City. I received a B.E in Computer Engineering at Stony Brook
+          University. Currently looking for opportunities to develop and improve my skills as a developer. I am passionate
+          about learning and working on challenging projects.</p>
       </div>
-      <div class="col-sm-3 mb-2">
-        <a href="mailto:ricky.zhangNYC@gmail.com">
-          <div><i class="fas fa-envelope-open"></i></div>
-          <span>Email</span>
-        </a>
-      </div>
-      <div class="col-sm-3 mb-2">
-        <a href="https://www.linkedin.com/in/rickyzhangnyc/" target="_blank">
-          <div><i class="fab fa-linkedin"></i></div>
-          <span>rickyzhangNYC</span>
-        </a>
-      </div>
-      <div class="col-sm-3 mb-2">
-        <a href="https://github.com/rickyzhangNYC" target="_blank">
-        <div><i class="fab fa-github"></i></div>
-        <span>rickyzhangNYC</span>
-        </a>
-      </div>
-    </div>
-    
-    <hr>
 
-    <!--Projects-->
-    <span id="projects"></span>
-    <div class="row">
-      <div class="col-lg-4">
-        <img class="rounded-circle" src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8b209b87443cca9d7d140ec0dd49fe21&auto=format&fit=crop&w=1050&q=80" alt="Microprocessor" width="140" height="140">
-        <h2 class="project-names">Three-staged Pipelined Processor</h2>
-        <p>Designed and coded a three staged pipelined 64-bit processor with single instruction multiple data (SIMD)
-        capabilities in VHDL.
-        </p>
-        <p><a class="btn btn-secondary" href="https://github.com/rickyzhangNYC/Three-Staged-Pipelined-Multimedia-Cell-Lite-Unit/blob/master/README.md" target="__blank" role="button">View details &raquo;</a></p>
+      <!--SOCIAL MEDIA LINKS-->
+      <div class="row text-center">
+        <div class="col-sm-3 mb-2">
+          <a href="https://s3.amazonaws.com/rickyzhangresume/Ricky+Zhang+Resume.pdf" target="_blank">
+            <div>
+              <i class="fas fa-file-alt"></i>
+            </div>
+            <span>Resume</span>
+          </a>
+        </div>
+        <div class="col-sm-3 mb-2">
+          <a href="mailto:ricky.zhangNYC@gmail.com">
+            <div>
+              <i class="fas fa-envelope-open"></i>
+            </div>
+            <span>Email</span>
+          </a>
+        </div>
+        <div class="col-sm-3 mb-2">
+          <a href="https://www.linkedin.com/in/rickyzhangnyc/" target="_blank">
+            <div>
+              <i class="fab fa-linkedin"></i>
+            </div>
+            <span>rickyzhangNYC</span>
+          </a>
+        </div>
+        <div class="col-sm-3 mb-2">
+          <a href="https://github.com/rickyzhangNYC" target="_blank">
+            <div>
+              <i class="fab fa-github"></i>
+            </div>
+            <span>rickyzhangNYC</span>
+          </a>
+        </div>
       </div>
-      <div class="col-lg-4">
-        <img class="rounded-circle" src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f799bed83db2959c476e69a3307d39e&auto=format&fit=crop&w=1050&q=80" alt="Generic placeholder image" width="140" height="140">
-        <h2 class="project-names">Mosquito Detector on Raspberry Pi</h2>
-        <p>Designed a real time mosquito detector in Python to detect
-        frequencies and perform Fast Fourier Transforms (FFTs) and communicate with the rest of the circuit that
-        the project group designed together.
-        </p>
-        <p><a class="btn btn-secondary" href="https://github.com/rickyzhangNYC/Senior-Design/blob/master/README.md" target="__blank" role="button">View details &raquo;</a></p>
-      </div>
-      <div class="col-lg-4">
-        <img class="rounded-circle" src="https://images.unsplash.com/photo-1527356900876-cae61d8d8462?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bb85b5729d7f484f0710b63b3da0908d&auto=format&fit=crop&w=1055&q=80" alt="Generic placeholder image" width="140" height="140">
-        <h2  class="project-names">Dual Slope 16-bit ADC with SPI interface</h2>
-        <p>Developed a controller for a 16-bit analog to digital converter to read voltages from peripherals such as DIP switches, rotary switches, 
-        voltage sources, etc.  Programmed in VHDL and synthesized using Symplify and routed into a Lattice LCMXO3L-6900C FPGA.
-        </p>
-        <p><a class="btn btn-secondary" href="https://github.com/rickyzhangNYC/Dual-Slope-16-bit-ADC-with-SPI-Interface" target="__blank" role="button">View details &raquo;</a></p>
-      </div>
-    </div><!-- /.row -->
-    
-  </div>
-</main>
 
-<% include ./partials/footer %>
+      <hr>
+
+      <!--Projects-->
+      <span id="projects"></span>
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8b209b87443cca9d7d140ec0dd49fe21&auto=format&fit=crop&w=1050&q=80"
+            alt="Microprocessor" width="140" height="140">
+          <h2 class="project-names">Three-staged Pipelined Processor</h2>
+          <p>Designed and coded a three staged pipelined 64-bit processor with single instruction multiple data (SIMD) capabilities
+            in VHDL.
+          </p>
+          <p>
+            <a class="btn btn-secondary" href="https://github.com/rickyzhangNYC/Three-Staged-Pipelined-Multimedia-Cell-Lite-Unit/blob/master/README.md"
+              target="__blank" role="button">View details &raquo;</a>
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f799bed83db2959c476e69a3307d39e&auto=format&fit=crop&w=1050&q=80"
+            alt="Generic placeholder image" width="140" height="140">
+          <h2 class="project-names">Mosquito Detector on Raspberry Pi</h2>
+          <p>Designed a real time mosquito detector in Python to detect frequencies and perform Fast Fourier Transforms (FFTs)
+            and communicate with the rest of the circuit that the project group designed together.
+          </p>
+          <p>
+            <a class="btn btn-secondary" href="https://github.com/rickyzhangNYC/Senior-Design/blob/master/README.md" target="__blank"
+              role="button">View details &raquo;</a>
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="https://images.unsplash.com/photo-1527356900876-cae61d8d8462?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bb85b5729d7f484f0710b63b3da0908d&auto=format&fit=crop&w=1055&q=80"
+            alt="Generic placeholder image" width="140" height="140">
+          <h2 class="project-names">Dual Slope 16-bit ADC with SPI interface</h2>
+          <p>Developed a controller for a 16-bit analog to digital converter to read voltages from peripherals such as DIP switches,
+            rotary switches, voltage sources, etc. Programmed in VHDL and synthesized using Symplify and routed into a Lattice
+            LCMXO3L-6900C FPGA.
+          </p>
+          <p>
+            <a class="btn btn-secondary" href="https://github.com/rickyzhangNYC/Dual-Slope-16-bit-ADC-with-SPI-Interface" target="__blank"
+              role="button">View details &raquo;</a>
+          </p>
+        </div>
+      </div>
+      <!-- /.row -->
+
+    </div>
+  </main>
+
+  <% include ./partials/footer %>
